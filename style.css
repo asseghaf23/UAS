@@ -1,0 +1,19 @@
+/* ==========================================================
+   RUNSMART - CSS EKSTERNAL
+   Penanda bagian dibuat agar mudah dipelajari saat presentasi.
+   ========================================================== */
+
+/* ========================= 1. RESET / UNIVERSAL SELECTOR ========================= */
+*{box-sizing:border-box}/* ========================= 2. HTML & BODY ========================= */
+html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f4f8fb;color:#203040;line-height:1.6}/* ========================= 3. HEADER / HERO ========================= */
+.hero{min-height:620px;background:linear-gradient(135deg,#0b6e69,#1c9c84);color:white}/* ========================= 4. NAVBAR ========================= */
+.navbar{padding:18px 0}.nav-link{color:rgba(255,255,255,.9)!important}/* ========================= 6. HERO CONTENT ========================= */
+.hero-content{padding:70px 0 80px}/* ========================= 5. ID SELECTOR: JUDUL ========================= */
+#judul{font-size:clamp(2.5rem,5vw,4.7rem);line-height:1.05;font-weight:800}.hero-image{width:100%;border-radius:28px;box-shadow:0 20px 45px rgba(0,0,0,.18)}/* ========================= 7. SECTION / KONTEN ========================= */
+.section-space{padding:80px 0}.section-alt{background:#eaf2f6}.section-title{text-align:center;margin-bottom:42px}.section-title span{font-size:.8rem;font-weight:800;letter-spacing:.14em;color:#16806d}.section-title h2{font-size:2.2rem;margin:8px 0;font-weight:800}.section-title p{color:#5c6b75}.card-materi,/* ========================= 9. BOX INFORMASI ========================= */
+.info-box,.form-box,/* ========================= 11. VIDEO & AUDIO ========================= */
+.media-box,.quiz-box,.about-box{background:white;border:1px solid #dfe8ed;border-radius:18px;box-shadow:0 10px 28px rgba(40,70,90,.07)}/* ========================= 8. CARD MATERI / CLASS SELECTOR ========================= */
+.card-materi{overflow:hidden;transition:.2s}.card-materi:hover{transform:translateY(-5px)}.card-materi img{width:100%;height:205px;object-fit:cover}.info-box,.form-box,.media-box,.quiz-box,.about-box{padding:28px}.table thead th{background:#0b6e69;color:white}.media-box video{border-radius:12px;background:#102027}.small-note{color:#6d7b84}/* ========================= 12. QUIZ ========================= */
+.quiz-box{max-width:850px;margin:auto}.quiz-options{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:24px}.quiz-option{border:1px solid #c9d8df;background:#f8fbfc;border-radius:12px;padding:14px;text-align:left;cursor:pointer}.quiz-option.correct{background:#dff5ea;border-color:#25a36f}.quiz-option.wrong{background:#ffe8e8;border-color:#d9534f}.quiz-result{min-height:28px;margin-top:18px;font-weight:700}/* ========================= 13. FOOTER ========================= */
+.footer{background:#15252e;color:#dce7ec;padding:28px 0}/* ========================= 14. RESPONSIVE / MOBILE ========================= */
+@media(max-width:767px){.hero{min-height:auto}.hero-content,.section-space{padding-top:50px;padding-bottom:50px}.quiz-options{grid-template-columns:1fr}}
